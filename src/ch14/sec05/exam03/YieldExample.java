@@ -10,10 +10,9 @@ public class YieldExample {
 
         WorkThread workThreadA = new WorkThread("workThreadA");
         WorkThread workThreadB = new WorkThread("workThreadB");
-        WorkThread workThreadC = new WorkThread("workThreadC");
+
         workThreadA.start();
         workThreadB.start();
-        workThreadC.start();
 
         System.out.println(workThreadA.getName() + "[Thread 시작 후 ] 사용하고 있거나 사용 가능한 모든 스레드의 개수 : " + Runtime.getRuntime().availableProcessors());
         System.out.println(workThreadA.getName() + "[Thread 시작 후 ] 현재 실행중인 모든 스레드의 개수 : " + Thread.activeCount());
