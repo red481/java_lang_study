@@ -34,7 +34,7 @@ public class CallableSubmitExample {
         while(executorService.isTerminated() == false){
             try {
                 Thread.sleep(0);
-            }catch (InterruptedException e){};
+            }catch (InterruptedException e){}
         }
 
         long endTime = System.currentTimeMillis();
