@@ -8,3 +8,5 @@
 예상 완독 일자 : 2024년 3월 29일
 
 실제 완독 일자 :
+
+서적 url : https://product.kyobobook.co.kr/detail/S000061695652
